@@ -918,9 +918,6 @@ MUWEAP:
 		RequiresCondition: !Building-Buildup
 	WithProductionDoorOverlay@DOOR:
 		RequiresCondition: !Building-Buildup
-	WithIdleOverlay@BIB:
-		Sequence: bib
-		RequiresCondition: !Building-Buildup
 
 MURADR:
 	Inherits: ^Radar
